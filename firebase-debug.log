@@ -1,0 +1,116 @@
+[debug] [2023-08-17T12:18:59.241Z] ----------------------------------------------------------------------
+[debug] [2023-08-17T12:18:59.243Z] Command:       /Users/juanaviles/.nvm/versions/node/v18.14.0/bin/node /Users/juanaviles/.nvm/versions/node/v18.14.0/bin/firebase deploy
+[debug] [2023-08-17T12:18:59.244Z] CLI Version:   12.4.8
+[debug] [2023-08-17T12:18:59.244Z] Platform:      darwin
+[debug] [2023-08-17T12:18:59.244Z] Node Version:  v18.14.0
+[debug] [2023-08-17T12:18:59.246Z] Time:          Thu Aug 17 2023 08:18:59 GMT-0400 (Eastern Daylight Time)
+[debug] [2023-08-17T12:18:59.246Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-08-17T12:18:59.320Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-08-17T12:18:59.320Z] > authorizing via signed-in user (avilesjuan628@gmail.com)
+[debug] [2023-08-17T12:18:59.320Z] [iam] checking project arched-media-395514 for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2023-08-17T12:18:59.323Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/arched-media-395514:testIamPermissions [none]
+[debug] [2023-08-17T12:18:59.323Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/arched-media-395514:testIamPermissions x-goog-quota-user=projects/arched-media-395514
+[debug] [2023-08-17T12:18:59.323Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/arched-media-395514:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2023-08-17T12:18:59.591Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/arched-media-395514:testIamPermissions 200
+[debug] [2023-08-17T12:18:59.591Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/arched-media-395514:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2023-08-17T12:18:59.592Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/arched-media-395514 [none]
+[debug] [2023-08-17T12:18:59.877Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/arched-media-395514 200
+[debug] [2023-08-17T12:18:59.877Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/arched-media-395514 {"projectId":"arched-media-395514","projectNumber":"102152032312","displayName":"google-maps","name":"projects/arched-media-395514","resources":{"hostingSite":"arched-media-395514"},"state":"ACTIVE","etag":"1_475be00a-ea34-41ef-9a00-d71c7d9970e1"}
+[info] 
+   Thank you for trying our early preview of Next.js support on Firebase Hosting.
+   During the preview, support is best-effort and breaking changes can be expected. Proceed with caution.
+
+   Documentation: https://firebase.google.com/docs/hosting/frameworks/nextjs
+   File a bug: https://github.com/firebase/firebase-tools/issues/new?template=bug_report.md
+   Submit a feature request: https://github.com/firebase/firebase-tools/issues/new?template=feature_request.md
+
+   We'd love to learn from you. Express your interest in helping us shape the future of Firebase Hosting: https://goo.gle/41enW5X
+
+[info] - info Loaded env from /Users/juanaviles/Desktop/nextlocation/google-maps/.env
+
+[info] - info Creating an optimized production build...
+
+[info] - info Compiled successfully
+
+[info] - info Linting and checking validity of types...
+
+[info] 
+Failed to compile.
+
+./app/login/page.js
+17:8  Warning: React Hook useEffect has a missing dependency: 'router'. Either include it or remove the dependency array.  react-hooks/exhaustive-deps
+
+./app/page.js
+33:6  Warning: React Hook useEffect has a missing dependency: 'router'. Either include it or remove the dependency array.  react-hooks/exhaustive-deps
+37:6  Warning: React Hook useEffect has a missing dependency: 'getGooglePlace'. Either include it or remove the dependency array.  react-hooks/exhaustive-deps
+
+./components/Home/BusinessItem.js
+17:8  Warning: React Hook useEffect has missing dependencies: 'business.geometry.location.lat', 'business.geometry.location.lng', 'userLocation.lat', and 'userLocation.lng'. Either include them or remove the dependency array.  react-hooks/exhaustive-deps
+
+./components/Home/CategoryList.js
+18:13  Error: Missing "key" prop for element in iterator  react/jsx-key
+
+info  - Need to disable some ESLint rules? Learn more here: https://nextjs.org/docs/basic-features/eslint#disabling-rules
+
+[debug] [2023-08-17T12:19:22.736Z] Error: ENOENT: no such file or directory, open '/Users/juanaviles/Desktop/nextlocation/google-maps/.next/export-marker.json'
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2023-08-17T12:20:16.974Z] ----------------------------------------------------------------------
+[debug] [2023-08-17T12:20:16.978Z] Command:       /Users/juanaviles/.nvm/versions/node/v18.14.0/bin/node /Users/juanaviles/.nvm/versions/node/v18.14.0/bin/firebase deploy
+[debug] [2023-08-17T12:20:16.978Z] CLI Version:   12.4.8
+[debug] [2023-08-17T12:20:16.979Z] Platform:      darwin
+[debug] [2023-08-17T12:20:16.979Z] Node Version:  v18.14.0
+[debug] [2023-08-17T12:20:16.980Z] Time:          Thu Aug 17 2023 08:20:16 GMT-0400 (Eastern Daylight Time)
+[debug] [2023-08-17T12:20:16.980Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-08-17T12:20:17.063Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-08-17T12:20:17.064Z] > authorizing via signed-in user (avilesjuan628@gmail.com)
+[debug] [2023-08-17T12:20:17.064Z] [iam] checking project arched-media-395514 for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2023-08-17T12:20:17.067Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/arched-media-395514:testIamPermissions [none]
+[debug] [2023-08-17T12:20:17.067Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/arched-media-395514:testIamPermissions x-goog-quota-user=projects/arched-media-395514
+[debug] [2023-08-17T12:20:17.067Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/arched-media-395514:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2023-08-17T12:20:17.376Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/arched-media-395514:testIamPermissions 200
+[debug] [2023-08-17T12:20:17.376Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/arched-media-395514:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2023-08-17T12:20:17.378Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/arched-media-395514 [none]
+[debug] [2023-08-17T12:20:17.611Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/arched-media-395514 200
+[debug] [2023-08-17T12:20:17.611Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/arched-media-395514 {"projectId":"arched-media-395514","projectNumber":"102152032312","displayName":"google-maps","name":"projects/arched-media-395514","resources":{"hostingSite":"arched-media-395514"},"state":"ACTIVE","etag":"1_475be00a-ea34-41ef-9a00-d71c7d9970e1"}
+[info] 
+   Thank you for trying our early preview of Next.js support on Firebase Hosting.
+   During the preview, support is best-effort and breaking changes can be expected. Proceed with caution.
+
+   Documentation: https://firebase.google.com/docs/hosting/frameworks/nextjs
+   File a bug: https://github.com/firebase/firebase-tools/issues/new?template=bug_report.md
+   Submit a feature request: https://github.com/firebase/firebase-tools/issues/new?template=feature_request.md
+
+   We'd love to learn from you. Express your interest in helping us shape the future of Firebase Hosting: https://goo.gle/41enW5X
+
+[info] - info Loaded env from /Users/juanaviles/Desktop/nextlocation/google-maps/.env
+
+[info] - info Creating an optimized production build...
+
+[info] - info Compiled successfully
+- info Linting and checking validity of types...
+
+[info] 
+Failed to compile.
+
+[info] 
+./app/login/page.js
+17:8  Warning: React Hook useEffect has a missing dependency: 'router'. Either include it or remove the dependency array.  react-hooks/exhaustive-deps
+
+./app/page.js
+33:6  Warning: React Hook useEffect has a missing dependency: 'router'. Either include it or remove the dependency array.  react-hooks/exhaustive-deps
+37:6  Warning: React Hook useEffect has a missing dependency: 'getGooglePlace'. Either include it or remove the dependency array.  react-hooks/exhaustive-deps
+
+./components/Home/BusinessItem.js
+17:8  Warning: React Hook useEffect has missing dependencies: 'business.geometry.location.lat', 'business.geometry.location.lng', 'userLocation.lat', and 'userLocation.lng'. Either include them or remove the dependency array.  react-hooks/exhaustive-deps
+
+./components/Home/CategoryList.js
+18:13  Error: Missing "key" prop for element in iterator  react/jsx-key
+
+info  - Need to disable some ESLint rules? Learn more here: https://nextjs.org/docs/basic-features/eslint#disabling-rules
+
+[debug] [2023-08-17T12:20:40.479Z] Error: ENOENT: no such file or directory, open '/Users/juanaviles/Desktop/nextlocation/google-maps/.next/export-marker.json'
+[error] 
+[error] Error: An unexpected error has occurred.
