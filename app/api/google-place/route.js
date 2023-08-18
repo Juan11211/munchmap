@@ -20,6 +20,7 @@ export async function GET(request){
     '&radius='+radius+
     "&key=" + GOOGLE_API_KEY,
     {
+      cache: "force-cache",
       headers: {
         "Content-Type": "application/json",
       },
@@ -29,3 +30,4 @@ export async function GET(request){
 
     return NextResponse.json({ product });
 }
+
